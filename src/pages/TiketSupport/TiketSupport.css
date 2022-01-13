@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eaeaea;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar p:hover {
+  color: #111;
+  cursor: pointer;
+  background-color: #eaeaea;
+}
+
+.sidebar h5 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar .card {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.main nav {
+  background-color: #eaeaea;
+  margin-bottom: 20px;
+}
+
+.main h3 {
+  margin: 50px 20px;
+  background-color: #eaeaea;
+}
+
+.main .card {
+  width: 70vw;
+  height: 500px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.card .header {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-bottom: 1px solid #818181;
+}
+
+.card h5 {
+  margin: 10px 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar p {
+    font-size: 18px;
+  }
+}
