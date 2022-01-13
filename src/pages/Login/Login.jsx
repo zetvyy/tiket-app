@@ -18,7 +18,7 @@ const Login = () => {
         <input type="text" />
         <label>Imei</label>
         <input type="text" />
-        <button onSubmit={e => handleSubmit(e)}>Login</button>
+        <button onClick={e => handleSubmit(e)}>Login</button>
       </form>
     </div>
   );
